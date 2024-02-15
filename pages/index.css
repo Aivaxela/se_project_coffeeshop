@@ -144,7 +144,7 @@
   flex-direction: column;
 }
 
-.recipes__video {
+.recipes__iframe {
   padding-bottom: 20px;
   width: 480px;
   height: 273px;
