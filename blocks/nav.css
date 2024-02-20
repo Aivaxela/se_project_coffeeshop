@@ -7,13 +7,14 @@
   width: 105px;
   height: 39px;
   align-self: center;
+  position: relative;
+  left: -50px;
 }
 
 .nav__links {
   margin: 0;
   display: flex;
   list-style-type: none;
-  padding-right: 80px;
   gap: 20px;
   align-self: center;
   font-size: 16px;
