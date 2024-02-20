@@ -44,7 +44,7 @@
 }
 
 .about__paragraph:last-of-type {
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .about__circle {
@@ -58,6 +58,5 @@
 }
 
 .about__circle_animation_blurred {
-  animation: pulsate 1.3s ease-in-out;
-  animation-iteration-count: infinite;
+  animation: pulsate 1.3s ease-in-out infinite;
 }

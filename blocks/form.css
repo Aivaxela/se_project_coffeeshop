@@ -1,12 +1,10 @@
 .form {
-  border-radius: 4px;
+max-width: 385px;
 }
 
 .form__fieldset {
   margin: 0 auto;
   padding: 0%;
-  width: 385px;
-  height: 60px;
   display: flex;
   flex-direction: column;
   border-style: none;
@@ -22,11 +20,18 @@
   padding-top: 0;
 }
 
+.form__label_checkbox-text {
+  padding: 0 0 0 12px;
+  font-weight: 500;
+}
+
 .form__input {
-  padding-left: 16px;
+  padding: 15px 0 15px 16px;
   font-size: 20px;
   line-height: 30px;
-  min-height: 60px;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-radius: 2%;
   border-color: #838383;
   border-style: solid;
 }
@@ -54,9 +59,4 @@
   border-radius: 2px;
   width: 20px;
   height: 20px;
-}
-
-.form__checkbox-text {
-  padding-left: 12px;
-  font-weight: 500;
 }
